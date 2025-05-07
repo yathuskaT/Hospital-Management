@@ -1,0 +1,103 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+
+    <!-- Admission Page -->
+    <servlet>
+        <servlet-name>AdmissionServlet</servlet-name>
+        <servlet-class>AdmissionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdmissionServlet</servlet-name>
+        <url-pattern>/AdmissionServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Appointment Page -->
+    <servlet>
+        <servlet-name>AppointmentServlet</servlet-name>
+        <servlet-class>AppointmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AppointmentServlet</servlet-name>
+        <url-pattern>/AppointmentServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Department Page -->
+    <servlet>
+        <servlet-name>DepartmentServlet</servlet-name>
+        <servlet-class>DepartmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepartmentServlet</servlet-name>
+        <url-pattern>/DepartmentServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Doctor Page -->
+    <servlet>
+        <servlet-name>DoctorServlet</servlet-name>
+        <servlet-class>DoctorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoctorServlet</servlet-name>
+        <url-pattern>/DoctorServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <!-- Fee Page -->
+    <servlet>
+        <servlet-name>FeeServlet</servlet-name>
+        <servlet-class>FeeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FeeServlet</servlet-name>
+        <url-pattern>/FeeServlet</url-pattern>
+    </servlet-mapping>
+    
+     <!-- Patient Page -->
+    <servlet>
+        <servlet-name>PatientServlet</servlet-name>
+        <servlet-class>PatientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PatientServlet</servlet-name>
+        <url-pattern>/PatientServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!-- Prescription Page -->
+    <servlet>
+        <servlet-name>PrescriptionServlet</servlet-name>
+        <servlet-class>PrescriptionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PrescriptionServlet</servlet-name>
+        <url-pattern>/PrescriptionServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Report Page -->
+    <servlet>
+        <servlet-name>ReportServlet</servlet-name>
+        <servlet-class>ReportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReportServlet</servlet-name>
+        <url-pattern>/ReportServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Ward Page -->
+    <servlet>
+        <servlet-name>WardServlet</servlet-name>
+        <servlet-class>WardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WardServlet</servlet-name>
+        <url-pattern>/WardServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+     <!-- Welcome Page -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
+
