@@ -22,12 +22,12 @@
         
          <div class="mb-3">
             <label for="docID" class="form-label">Doctor ID</label>
-             <input type="text" class="form-control" id="docID" name="WardID" required>
+             <input type="text" class="form-control" id="docID" name="DoctorID" required>
         </div>
         
         <div class="mb-3">
             <label for="predate" class="form-label">Date Prescribed</label>
-            <input type="date" class="form-control" id="predate" name="DateAdmitted" required>
+            <input type="date" class="form-control" id="predate" name="DatePrescribed" required>
         </div>
         
        
