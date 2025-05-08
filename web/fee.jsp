@@ -33,7 +33,7 @@
         
         <div class="mb-3">
             <label for="des" class="form-label">Description</label>
-            <input type="text" class="form-control" name="descri" name="Description" required>
+            <input type="text" class="form-control" id="descri" name="Description" required>
         </div>
        
         <button type="submit" class="btn btn-secondary">Submit</button>
